@@ -791,15 +791,6 @@ vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxWmaDec.so
 
-# Mlipay
-vendor/bin/mlipayd@1.1
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-vendor/lib64/libmlipay.so
-vendor/lib64/libmlipay@1.1.so
-system/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-system/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
-system/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
-
 # Neural networks - from LA.UM.8.3.r1-06100-sdm845.0
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
