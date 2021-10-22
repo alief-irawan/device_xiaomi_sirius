@@ -166,6 +166,17 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.7 \
     vendor.qti.hardware.display.allocator@1.0-service
 
+# Missing Libs
+PRODUCT_PACKAGES += \ 
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.gatekeeper@1.1.vendor \
+    android.hardware.neuralnetwork@1.0.vendor \
+    android.hardware.neuralnetwork@1.1.vendor \
+    libhwbinder.vendor \
+    libhwbinder \
+    libprotobuf-cpp-full.vendor \
+    libprotobuf-cpp-full
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
