@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/sirius/sirius.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_sirius
