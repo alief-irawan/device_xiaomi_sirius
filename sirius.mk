@@ -167,15 +167,23 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator@1.0-service
 
 # Missing Libs
-PRODUCT_PACKAGES += \ 
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0.vendor \
+    android.hardware.secure_element@1.0.vendor \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.2.vendor \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.gatekeeper@1.1.vendor \
-    android.hardware.neuralnetwork@1.0.vendor \
-    android.hardware.neuralnetwork@1.1.vendor \
+    android.hardware.neuralnetworks@1.0.vendor \
+    android.hardware.neuralnetworks@1.1.vendor \
     libhwbinder.vendor \
     libhwbinder \
-    libprotobuf-cpp-full.vendor \
-    libprotobuf-cpp-full
+    com.qualcomm.qti.ant@1.0
+
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
 
 # DRM
 PRODUCT_PACKAGES += \
